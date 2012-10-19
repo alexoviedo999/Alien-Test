@@ -1,4 +1,6 @@
 Gittest::Application.routes.draw do
+  resources :pirates
+
   resources :aliens
 
   # The priority is based upon order of creation:
